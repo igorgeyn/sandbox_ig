@@ -1,0 +1,15 @@
+# This is code to create and push a GitHub repo
+
+# This needs to be done to create your identity on GitHub if you have never done so before
+
+git config --global user.mail "you@example.com" #igorgeyn@gmail.com
+git config --global user.name "Your Name" #Igor Geyn
+
+# This is the actual code to create and push the repo
+
+git init
+git add .
+git commit -m "First commit"
+git remote add origin <remote repo URL>
+git remote -v
+git push origin master
